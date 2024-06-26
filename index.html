@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-nombre">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu-list">
+                    <li class="nav-list">
+                        <a href="#inicio" class="link activo">Inicio</a>
+                        <div class="circle"></div>
+                    <li class="nav-list">
+                        <a href="#about" class="link">Sobre mi</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#educacion" class="link">Educacion</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#trabajos" class="link">Trabajos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contacto" class="link">Contacto</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="modo">
+                <div class="noche-dia" id="toggle-switch">
+                    <i class="fa fa-moon" id="luna"></i>
+                    <i class="fa fa-sun" id="sol"></i>  
+                </div>
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <section class="featured-box" id="inicio">
+                <div class="featured-texto">
+                    <div class="hola">
+                        <p>Hola, yo soy</p>
+                    </div>
+                    <div class="featured-nombre">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>Mi nombre es Lourdes Micaela Garay Fernandez,soy una persona responsable y pro activa en busca de trabajo.</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Contratarme</button>
+                        <button class="btn">Descargar CV</button>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon-circle"></div>
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-facebook"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="imagen">
+                        <img src="Img/luli.jfif" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="seccion" id="about">
+                <div class="top-header">
+                    <h1>Sobre mi</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="Img/luli-perfil.jpg" alt="" class="profile">
+                                    <p>Mi nombre es Lourdes Micaela Garay Fernandez, soy una persona responsable y pro activa en busca de trabajo.</p>
+                                </figcaption>
+                            </figure>
+                            <button class="about-me-btn">Contratarme</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion" id="educacion">
+                <div class="top-header">
+                    <h1>Estudios cursados</h1>
+                </div>
+                <div class="estudios-container">
+                    <div class="estudios-box">
+                        <i class="uil uil-book-alt"></i>
+                        <h3>Profesorado en Psicología</h3>
+                        <label>I.N.E.S Dra. Carmen Peñaloza</label>
+                        <label>desde el 2022 hasta la fecha</label>
+                    </div>
+                    <div class="estudios-box">
+                        <i class="uil uil-graduation-cap"></i>
+                        <h3>Estudios Secundarios</h3>
+                        <label>Escuela Normal Superior Sarmiento</label>
+                        <label>Orientacion en Educación</label>
+                        <label>2012 - 2019</label>
+                    </div>
+                    <div class="estudios-box">
+                        <i class="uil uil-award-alt"></i>
+                        <h3>Idiomas</h3>
+                        <label>Ingles Básico A1</label>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion" id="trabajos">
+                <div class="top-header">
+                    <h1>Experiencia Laboral</h1>
+                </div>
+                <div class="estudios-container">
+                    <div class="estudios-box">
+                        <h3>Recepcionista y Mucama</h3>
+                        <p>Hotel Cuesta del Viento</p>
+                        <p>Referencia Javier Ruiz - Cel. 2644041419</p>
+                        <ul>
+                            <li>Atención al Cliente</li>
+                            <li>Atención Telefónica</li>
+                            <li>Gestión de Reservas</li>
+                            <li>Gestión y atención en check in y check out</li>
+                        </ul>
+                        <p>Febrero 2024 - Abril 2024</p>
+                    </div>
+                    <div class="estudios-box">
+                        <h3>Cajera y Atención al público</h3>
+                        <p>Meraki SA Drugstore</p>
+                        <ul>
+                            <li>Apertura y cierre de caja el final de cada turno</li>
+                            <li>Reposición y control de stock</li>
+                            <li>Orden y mantenimiento del almacén</li>
+                        </ul>
+                        <p>Febrero 2022 - Marzo 2023</p>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion" id="contacto">
+                <div class="top-header">
+                    <h1>Contacto</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Me pueden contactar en <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope">Email: luli.rnr.88@gmail.com</i></p>
+                            <p><i class="uil uil-phone">Telefono: 2646716586</i></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="su nombre">
+                                <input type="text" class="input-field" placeholder="su Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="motivo">
+                                <textarea placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-btn">
+                                <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#inicio">Inicio</a>   
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">Sobre Mi</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#educacion">Educación</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#trabajos">Trabajos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-facebook"></i></div>
+                <div class="icon"><i class="uil uil-linkedin"></i></div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
